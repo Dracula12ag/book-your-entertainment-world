@@ -49,10 +49,10 @@ Have a configurable timeout for a UserBookingSession. Show that if User selects 
 * Code should handle edge cases properly and fail gracefully.
 * Code should be legible, readable and DRY
 
-#### Guidelines
-* Use of DB not expected. You can store data in memory.
-* Please discuss the solution with an interviewer
-* Please do not access internet for anything EXCEPT syntax
-* You are free to use the language of your choice
-* All code should be your own
-* Please focus on the Bonus questions only after ensuring the required features are complete and demoable.
+### Further Improvements
+* Seat type: Silver, Gold, Diamond
+    * Different pricing for different types of seats.
+* Validating payment in payment success flow. 
+* Checking if show creation is allowed. 
+    * This mainly include implementing method `checkIfShowCreationAllowed` in `ShowService`.
+* Handling different types of movies like 3D, 7D, etc.
